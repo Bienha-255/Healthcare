@@ -7,9 +7,9 @@ import com.ptit.dangbien.security.AuthoritiesConstants;
 import com.ptit.dangbien.service.MailService;
 import com.ptit.dangbien.service.UserService;
 import com.ptit.dangbien.service.dto.UserDTO;
-import com.ptit.trandung.web.rest.errors.BadRequestAlertException;
-import com.ptit.trandung.web.rest.errors.EmailAlreadyUsedException;
-import com.ptit.trandung.web.rest.errors.LoginAlreadyUsedException;
+import com.ptit.dangbien.web.rest.errors.BadRequestAlertException;
+import com.ptit.dangbien.web.rest.errors.EmailAlreadyUsedException;
+import com.ptit.dangbien.web.rest.errors.LoginAlreadyUsedException;
 
 import io.github.jhipster.web.util.HeaderUtil;
 import io.github.jhipster.web.util.PaginationUtil;

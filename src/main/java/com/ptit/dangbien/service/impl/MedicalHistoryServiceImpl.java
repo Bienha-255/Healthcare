@@ -2,7 +2,7 @@ package com.ptit.dangbien.service.impl;
 
 import com.ptit.dangbien.domain.Doctor;
 import com.ptit.dangbien.domain.Nurse;
-import com.ptit.trandung.domain.enumeration.MedicalHistoryStatus;
+import com.ptit.dangbien.domain.enumeration.MedicalHistoryStatus;
 import com.ptit.dangbien.repository.DoctorRepository;
 import com.ptit.dangbien.repository.NurseRepository;
 import com.ptit.dangbien.service.MedicalHistoryService;

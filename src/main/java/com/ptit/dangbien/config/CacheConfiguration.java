@@ -43,19 +43,19 @@ public class CacheConfiguration {
     @Bean
     public JCacheManagerCustomizer cacheManagerCustomizer() {
         return cm -> {
-            createCache(cm, com.ptit.trandung.repository.UserRepository.USERS_BY_LOGIN_CACHE);
-            createCache(cm, com.ptit.trandung.repository.UserRepository.USERS_BY_EMAIL_CACHE);
-            createCache(cm, com.ptit.trandung.domain.User.class.getName());
-            createCache(cm, com.ptit.trandung.domain.Authority.class.getName());
-            createCache(cm, com.ptit.trandung.domain.User.class.getName() + ".authorities");
-            createCache(cm, com.ptit.trandung.domain.Doctor.class.getName());
-            createCache(cm, com.ptit.trandung.domain.Doctor.class.getName() + ".diseases");
-            createCache(cm, com.ptit.trandung.domain.Nurse.class.getName());
-            createCache(cm, com.ptit.trandung.domain.Patient.class.getName());
-            createCache(cm, com.ptit.trandung.domain.MedicalHistory.class.getName());
-            createCache(cm, com.ptit.trandung.domain.Disease.class.getName());
-            createCache(cm, com.ptit.trandung.domain.Disease.class.getName() + ".doctors");
-            createCache(cm, com.ptit.trandung.domain.Medicine.class.getName());
+            createCache(cm, com.ptit.dangbien.repository.UserRepository.USERS_BY_LOGIN_CACHE);
+            createCache(cm, com.ptit.dangbien.repository.UserRepository.USERS_BY_EMAIL_CACHE);
+            createCache(cm, com.ptit.dangbien.domain.User.class.getName());
+            createCache(cm, com.ptit.dangbien.domain.Authority.class.getName());
+            createCache(cm, com.ptit.dangbien.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.ptit.dangbien.domain.Doctor.class.getName());
+            createCache(cm, com.ptit.dangbien.domain.Doctor.class.getName() + ".diseases");
+            createCache(cm, com.ptit.dangbien.domain.Nurse.class.getName());
+            createCache(cm, com.ptit.dangbien.domain.Patient.class.getName());
+            createCache(cm, com.ptit.dangbien.domain.MedicalHistory.class.getName());
+            createCache(cm, com.ptit.dangbien.domain.Disease.class.getName());
+            createCache(cm, com.ptit.dangbien.domain.Disease.class.getName() + ".doctors");
+            createCache(cm, com.ptit.dangbien.domain.Medicine.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

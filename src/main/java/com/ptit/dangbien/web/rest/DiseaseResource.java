@@ -1,7 +1,7 @@
 package com.ptit.dangbien.web.rest;
 
 import com.ptit.dangbien.service.DiseaseService;
-import com.ptit.trandung.web.rest.errors.BadRequestAlertException;
+import com.ptit.dangbien.web.rest.errors.BadRequestAlertException;
 import com.ptit.dangbien.service.dto.DiseaseDTO;
 
 import io.github.jhipster.web.util.HeaderUtil;
