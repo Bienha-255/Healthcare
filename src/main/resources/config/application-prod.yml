@@ -17,7 +17,7 @@ logging:
   level:
     ROOT: INFO
     io.github.jhipster: INFO
-    com.ptit.trandung: INFO
+    com.ptit.dangbien: INFO
 
 management:
   metrics:
@@ -35,7 +35,7 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:mysql://health-care.mysql.database.azure.com:3306/healthcare?useSSL=true&requireSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: ptit@health-care
-    password: Dung181099!
+    password: Bienhadang@215
     hikari:
       poolName: Hikari
       auto-commit: false
